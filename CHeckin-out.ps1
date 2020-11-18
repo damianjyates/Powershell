@@ -9,9 +9,10 @@ $mailParams = @{
     Port                       = '25' # or '25' if not using TLS
     UseSSL                     = $true ## or not if using non-TLS
     #Credential                 = $credential
-    From                       = 'v-dayat@microsoft.com'
-    To                         = 'ts343i@microsoft.com', 'Gerald.Datsko@disys.com'
-    CC                         = 'v-dayat@microsoft.com'
+    From                       = 'damian.yates@darigold.com'
+    To                         = 'Jared.Karppi@darigold.com'
+    CC                         = 'damian.yates@darigold.com', 'damian.yates@gmail.com
+##The following requires a decision tree and selection matrix for end user interaction.
     #Subject                    = "In office - $(Get-Date -Format g)"
     #Body                       = 'In office'
     #Subject                    = "Out to lunch - $(Get-Date -Format g)"
